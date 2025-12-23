@@ -4,6 +4,12 @@
   width: 100%;
 }
 
+main {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin: 10px 0;
+}
+
 header,
 main,
 footer {
@@ -24,6 +30,14 @@ footer {
   text-decoration: none;
 }
 
-a {
-  text-decoration: none;
+#board-list {
+  width: 700px;
+  margin: 10px auto;
+}
+
+#board-list,
+#board-list th,
+#board-list td {
+  border: 1px solid;
+  border-collapse: collapse;
 }
