@@ -41,3 +41,7 @@ footer {
   border: 1px solid;
   border-collapse: collapse;
 }
+
+img:hover {
+  cursor: pointer;
+}
