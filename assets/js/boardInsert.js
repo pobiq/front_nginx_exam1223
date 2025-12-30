@@ -27,6 +27,8 @@ const addBoard = async (event) => {
     let res = await axios.post("/api/board/register", bData);
 
     console.log(res.data);
+
+    location.href = "board.html";
   } catch (err) {
     console.log(err);
   }
