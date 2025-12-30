@@ -23,9 +23,31 @@
     </header>
 
     <main>
+
       <table id="board-list">
+        <tr>
+          <td>글 제목</td>
+          <td><span id="title"></span></td>
+        </tr>
+        <tr>
+          <td>작성자</td>
+          <td><span id="writer"></span></td>
+        </tr>
+        <tr>
+          <td>내용</td>
+          <td><span id="content"></span></td>
+        </tr>
+        <tr>
+          <td>첨부파일</td>
+          <td><a id="download-link" href="#">다운로드</a></td>
+        </tr>
+        <tr>
+          <td colspan=" 2">
+            <input type="button" value="뒤로" id="boardListBtn">
+          </td>
+        </tr>
       </table>
-      <a href="boardInsert.html">게시글 작성</a>
+
     </main>
 
     <footer>
@@ -34,7 +56,7 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/boardDetail.js"></script>
 </body>
 
 </html>
